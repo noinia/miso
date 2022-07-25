@@ -26,7 +26,7 @@ import qualified Data.ByteString.Lazy    as BL
 import           Data.Monoid
 import           Data.JSString
 import           Data.JSString.Text
-import           Data.Text
+import           Data.Text hiding (elem)
 import qualified Data.Text               as T
 import qualified Data.Text.Encoding      as T
 import qualified Data.Text.Lazy          as LT
